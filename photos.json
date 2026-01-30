@@ -1,18 +1,18 @@
 [
   {
     "id": "test1",
-    "title": "My First Train Photo",
-    "date": "2026-01-30",
-    "railroad": "CSX",
-    "subdivision": "Indianapolis Sub",
-    "location": "Springfield, OH",
-    "state": "OH",
-    "power": ["CSX 3194"],
-    "train": "Intermodal",
-    "tags": ["CSX", "GEVO"],
+    "title": "NKP SD9 358",
+    "date": "2024-18-10",
+    "railroad": "NKP",
+    "subdivision": "N/A",
+    "location": "Angola ",
+    "state": "IN",
+    "power": ["NKP 358"],
+    "train": "Excursion",
+    "tags": ["NKP", "SD9"],
     "photo": "photos/test.JPG",
-    "thumb": "thumbs/test.JPG",
-    "map": "https://www.google.com/maps?q=Springfield,+OH"
+    "thumb": "thumbs/test.JPG"
   }
 ]
+
 
