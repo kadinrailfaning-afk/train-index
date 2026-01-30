@@ -1,0 +1,14 @@
+body{margin:0;font-family:Arial;background:#0b0f14;color:white}
+.topbar{padding:15px;background:#111;display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between}
+.controls input,.controls select,.controls button{padding:8px;border-radius:8px;border:none}
+.wrap{padding:15px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}
+.card{background:#1a1f27;border-radius:12px;overflow:hidden;cursor:pointer}
+.thumb{width:100%;height:180px;object-fit:cover}
+.info{padding:10px}
+.modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.7);padding:20px}
+.modal[aria-hidden="false"]{display:block}
+.modal-card{max-width:900px;margin:auto;background:#1a1f27;border-radius:12px;overflow:hidden}
+.modal img{width:100%}
+.close{position:absolute;right:30px;top:30px;padding:10px;border-radius:8px}
+.tag{display:inline-block;background:#2a323d;padding:5px 10px;border-radius:20px;margin:5px 5px 0 0}

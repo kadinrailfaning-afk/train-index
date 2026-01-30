@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Train Photo Index</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo">🚆</div>
+      <div>
+        <h1>Train Photo Index</h1>
+        <p class="sub">Searchable railfan photo catalog</p>
+      </div>
+    </div>
+
+    <div class="controls">
+      <input id="q" type="search" placeholder="Search photos..." />
+      <select id="railroad"></select>
+      <select id="year"></select>
+      <select id="sort">
+        <option value="newest">Newest</option>
+        <option value="oldest">Oldest</option>
+        <option value="az">A–Z</option>
+      </select>
+      <button id="reset">Reset</button>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="stats" id="stats"></div>
+    <section class="grid" id="grid"></section>
+  </main>
+
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modal-card">
+      <button class="close" id="close">✕</button>
+      <img id="mImg" alt="" />
+      <div class="meta">
+        <h2 id="mTitle"></h2>
+        <div class="meta-row" id="mMeta"></div>
+        <div class="tags" id="mTags"></div>
+        <div class="links" id="mLinks"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

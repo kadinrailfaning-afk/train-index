@@ -1,0 +1,17 @@
+[
+  {
+    "id": "test1",
+    "title": "My First Train Photo",
+    "date": "2026-01-30",
+    "railroad": "CSX",
+    "subdivision": "Indianapolis Sub",
+    "location": "Springfield, OH",
+    "state": "OH",
+    "power": ["CSX 3194"],
+    "train": "Intermodal",
+    "tags": ["CSX", "GEVO"],
+    "photo": "photos/test.jpg",
+    "thumb": "thumbs/test.jpg",
+    "map": "https://www.google.com/maps?q=Springfield,+OH"
+  }
+]
