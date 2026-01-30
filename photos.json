@@ -10,8 +10,9 @@
     "power": ["CSX 3194"],
     "train": "Intermodal",
     "tags": ["CSX", "GEVO"],
-    "photo": "photos/test.jpg",
-    "thumb": "thumbs/test.jpg",
+    "photo": "photos/test.JPG",
+    "thumb": "thumbs/test.JPG",
     "map": "https://www.google.com/maps?q=Springfield,+OH"
   }
 ]
+
