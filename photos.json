@@ -12,7 +12,22 @@
     "tags": ["NKP", "SD9"],
     "photo": "photos/test.JPG",
     "thumb": "thumbs/test.JPG"
+  },
+   {
+    "id": "test2",
+    "title": "AMTRAK 108",
+    "date": "2026-30-01",
+    "railroad": "AMTRAK",
+    "subdivision": "NS Chicago line",
+    "location": "Wasuseon, OH",
+    "state": "OH",
+    "power": ["AMTRAK 108"],
+    "train": "Lake Shore Limited",
+    "tags": ["AMTRAK", "P42DC"],
+    "photo": "photos/AMTRAK 108.JPG",
+    "thumb": "thumbs/AMTRAK 108.JPG"
   }
 ]
+
 
 
